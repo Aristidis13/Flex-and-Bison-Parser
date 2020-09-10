@@ -17,6 +17,7 @@ The restrictions were these:
 - created_at must be "Day_name MMM DD XX:XX:XX +NNNN YYYY" for example: 'Thu Apr 06 15:24:15 +0000 2017'
 Of course every field must be checked if is in a valid value or not.
 - id_str must be string and unique and the value must be a number
+- hashtag field can be optional but if exists then entities field must exist too.
 
 Also I added some restrictrions:
 - id_str,user,text and created_at must exist for every tweet in the JSON file. All other fields are optional.
