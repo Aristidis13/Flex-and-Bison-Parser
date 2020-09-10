@@ -29,7 +29,7 @@ https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/overview/ge
 Every file that is given as input can contain one or multiple tweets, retweets and extended_tweets in any order.
 
 The challenging part with this project was to find a way to pass information from flex file to bison file. That's why flex file
-has all these yylval.... and in Bison I used structs (no joke).
+has all these yylval.... and in Bison I used union command (no joke).
 
 # HOW TO RUN
 You must install flex and bison in your ubuntu if (unlikely) you don't have them installed.
