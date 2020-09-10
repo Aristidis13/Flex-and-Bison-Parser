@@ -11,7 +11,7 @@ There can be 3 types of input separated with comma:
 
 In folder tests there are tests for testing the parser.
 
-The restrictions were these
+The restrictions were these:
 - text element must be up to 140 characters.
 - user element must contain ONLY 1 id as unique positive integer and name, screen_name and location as strings.
 - created_at must be "Day_name MMM DD XX:XX:XX +NNNN YYYY" for example: 'Thu Apr 06 15:24:15 +0000 2017'
