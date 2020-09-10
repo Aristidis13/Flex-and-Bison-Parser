@@ -1,0 +1,59 @@
+{
+  "user" :
+  {
+    "id" : 239,
+    "name" : "Aris_Barlos",
+    "screen_name" : "arisbarlos",
+    "location" : "Internet",
+    "url" : "https:\/\/johnTheKiller.twitter.com",
+    "description" : "Hello!We are 839 { and one,"
+  },
+  "created_at" : "Mon Jan 19 23:59:59 +0000 2019",
+  "id_str":"238",
+  "text" : "This is a tweet with more less than 140 characters.{}[],92() "
+},
+
+
+
+
+{
+   "tweet" :
+   {
+      "text" : "RT @johnwick This is a retweet at 5.00 am.Valar Morgulis",
+      "user" :
+      {
+         "screen_name" : "afacelessman"
+      }
+   },
+   "retweeted_status" :
+   {
+     "text" : "This is a retweet from 5.00 am.",
+     "user" : { "screen_name" : "johnwick" },
+     "entities" : {},
+     "place" : {}
+   }
+},
+
+
+{
+  "user" :
+  {
+    "id" : 1239,
+    "name" : "Kobe Bryant",
+    "screen_name" : "kobebryant",
+    "location" : "Los Angeles",
+    "url" : "https://kobebryantIlovethegame.com",
+    "description" : "This is the G.O.A.T.Bow before me."
+  },
+  "id_str" : "6789453",
+  "created_at" : "Mon Jan 10 16:24:34 +0000 2018",
+  "display_text_range" : [0,29],
+  "text" : "1234567891011 15",
+  "truncated" : TRUE,
+  "extended_tweet" :
+  {
+    "full_text" : "This is an extended tweet with more than 140 characters.My 3 all-time favorite moto's ",
+    "display_text_range" : [1,143],
+    "entities" : { "hashtags" : [{"indices" : [136,143],"text" : "quotes"}] }
+  }
+}
