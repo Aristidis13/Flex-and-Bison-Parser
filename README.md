@@ -24,9 +24,9 @@ Also I added some restrictrions:
 -Everything was created according to the JSON described in this link:
 https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/overview/geo-objects
 - Retweet cannot contain created_at, text or id_str fields because it is a retweet and not a posted tweet.
--Extended tweets must have truncated field as true and normal tweets must have truncated field as false. Truncated field
+-Extended tweets must have truncated field as true and normal tweets must have truncated field as false.
 
-Every file can contain one or multiple tweets, retweets and extended_tweets in any sequence.
+Every file that is given as input can contain one or multiple tweets, retweets and extended_tweets in any order.
 
 The challenging part with this project was to find a way to pass information from flex file to bison file. That's why flex file
 has all these yylval.... and in Bison I used structs (no joke).
