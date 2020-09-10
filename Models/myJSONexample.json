@@ -1,0 +1,35 @@
+{ 
+  "created_at": "Thu Apr 06 15:24:15 +0000 2017",
+  "id_str": "850006245121695744",
+  "text": "1\/ Today we\u2019re sharing our vision for the future of the Twitter API platform!\nhttps:\/\/t.co\/XweGngmxlP",
+
+  "user":
+   {
+      "id": 2244994945,
+      "name": "Twitter Dev",
+      "screen_name": "TwitterDev",
+      "location": "Internet",
+      "url": "https:\/\/dev.twitter.com\/",
+      "description": "Your official source for Twitter Platform news, updates & events. Need technical help?" 
+  	},
+	
+  "place":
+   {
+   	 "id": "01a9a39529b27f36",
+     "url": "https://api.twitter.com/1.1/geo/id/01a9a39529b27f36.json",
+     "place_type": "city",
+     "full_name": "Manhattan, NY",
+     "country": "United States",
+     "bounding_box":
+     {
+       "type": "Polygon",
+       "coordinates": [ [ -74.026675, 40.683935 ], [ -74.026675, 40.877483 ], [ -73910408, 40.877483 ], [ -73.910408, 40.683935 ] ]
+     }
+   },
+   "entities":
+   {
+      "hashtags": [ { "indices": [32,38], "text": "nodejs" } ],
+      "urls": [ { "url": "https://t.co/XweGngmxlP", "unwound": { "url": "https://cards.twitter.com/cards/18ce53wgo4h/3xo1c", "title": "Building the Future of the Twitter API Platform"}}],
+      "user_mentions": [ { "id":111111, "id_str":"111111", "indices":[45,55], "name":"Aris Pao13", "screen_name":"arispao13" } ]
+   }
+}

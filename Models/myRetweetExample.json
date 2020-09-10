@@ -1,0 +1,20 @@
+{
+   "tweet" :
+   {
+   	   "text" : "RT @author_name original_text", 
+   	   "user" :
+       {
+   	      "screen_name" : "User_that_Retweeted"
+ 	   }
+   },
+   "retweeted_status" :
+   {
+      "text" : "original_text",           
+      "user" :                            
+      {
+     	  "screen_name" : "author_name"
+      },                                 
+      "place" : {},                     
+      "entities" : {}
+   }
+}
